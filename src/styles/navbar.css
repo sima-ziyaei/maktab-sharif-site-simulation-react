@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.navLinks{
+    margin-top: 20px;
+}
+a{
+    margin-right: 16px;
+    color: #3f5376;
+    text-decoration: none;
+}
+
+ a.active{
+    color: #d58b73;
+    font-weight: bold;
+}
+.title{
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: #3f5376;
+    
+}
+
+.maktabLogo{
+    width: 75px;
+    height: 75px;
+}

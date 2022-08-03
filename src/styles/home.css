@@ -1,0 +1,31 @@
+.main{
+    background-color: #F2F6FC;
+    display: flex;
+    justify-content: space-between;
+}
+
+.screenPhoto{
+    width: 60%;
+    height: 545px;
+}
+
+.text{
+    margin-left: 15%;
+    margin-top: 8%;
+}
+
+.titr{
+    color:#3f5376 ;
+    font-size: 50px;
+    margin-bottom: 30%;
+}
+
+.site{
+    color:#d58b73 ;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.par{
+    color:#3f5376 ;
+}

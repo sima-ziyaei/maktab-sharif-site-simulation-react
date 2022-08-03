@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+
+
+.container{
+    display: flex;
+    margin-top: 6%;
+    justify-content: center;
+}
+
+.mainPhoto{
+    width: 50%;
+    height: 50%;
+}
+
+.info{
+    direction: rtl;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bootCampName{
+    font-weight:900;
+    font-size: 60px;
+    color: #3f5376;
+    margin-bottom: 40px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.bootCampsInfo{
+    font-family: 'Shabnam';
+    font-size: 18px;
+}

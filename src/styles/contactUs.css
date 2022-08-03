@@ -1,0 +1,60 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #3f5376;
+    font-weight: bold;
+    margin: 5% 0;
+}
+
+input,
+textarea{
+    width: 40%;
+    height: 30px;
+    border: 2px solid #c3b79d;
+    border-radius:10px ;
+    margin: 10px;
+    text-align: end;
+    font-size: 15px;
+}
+
+textarea{
+    height: 60px;
+}
+
+textarea:focus{
+    outline: none !important;
+    border: 2px solid #3f5376;
+}
+
+input:focus{
+    outline: none !important;
+    border: 2px solid #3f5376;
+}
+
+lable{
+    text-align: end;
+    width: 40%;
+}
+
+.submit{
+    text-align: center;
+    background-color: #d58b73;
+    width: 41%;
+    height: 33px;
+    color: #3f5376;
+    font-weight: bold;
+}
+
+
+.icon{
+    font-size: 24px;
+    color: rgb(51, 231, 51);
+
+}
+
+.error{
+    color: rgb(220, 15, 15);
+}
